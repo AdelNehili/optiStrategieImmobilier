@@ -1,0 +1,5 @@
+1) Améliorer le fait que pour certaines classes (*), les dépenses qui peuvent varier dans le temps sont représentées par
+    expenses[0]. Avoir un enième attribut des House/Livings devenait lourd visuellement
+        * : Voiture/Maison/Child
+2) Améliorer le fait que les allocations augmentent lorsque le ménage gagne peu d'argent
+3)

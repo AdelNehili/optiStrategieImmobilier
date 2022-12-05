@@ -1,0 +1,21 @@
+09/06 : 1)Gestion des economies de la maison par la répartition de salaire entre l'human et la maison (salaryPartition
+        et investAndEcoForHouse)
+        2)Gestion des promotion pour les human (Attention, la promotion_value des Child = 0)
+
+10/06 : Gestion de l'affichage des economies de la maison et de tous les Human (avec adapatation de l'axe Y pour les Child)
+
+16/06 : Gestion de la fin des payments de la maison/voiture ("CA Y EST ON A PAYE CETTE MAISON/VOITURE!")
+
+18/06 : Gestion de newStrategy (moment où la femme arrete de travailler pour être femme au foyer)
+
+20/06 : 1)Gestion des départs/morts des livings (par la fonction die())
+        2)gestion des dépenses/allocations d'un enfant en fonction de son age
+
+22/06 : 1) Gestion des investissements (début des intérations entre les Class Human-Invest)
+        2) Detail de la Class Dog, créer un objet Dog fait que la maison doit payer les dépenses de début
+        3) Notion de maladies pour tous les Livings
+            3.a) Les voitures tombent malades moins souvent (no_sick_period>>) mais coutent plus cher (sick_expense>>)
+            3.b) Les autres livings tombent malades chaque années (no_sick_period=1) et coutent moins cher (sick_expense<<)
+
+23/06 : Travaille sur la fonction _checkInflation de la class Maison (tous les ans, -2% sur les economies/salaires)
+
